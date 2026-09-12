@@ -1,365 +1,145 @@
 <div align="center">
 
-# 🎓 Undergraduate Coursework & Projects
+# Undergraduate Coursework Archive
 
-### 我的本科课程学习与项目归档
+### 本科课程实验与课程作业归档
 
-**A collection of my undergraduate coursework, assignments, projects, notes, and solutions.**
+Course labs, programming exercises, and coursework completed during my undergraduate studies.
 
-**记录本科阶段的课程学习、作业、项目、实验与技术积累。**
+本科阶段完成的课程实验、编程练习与课程作业。
 
-<br>
-
-![Undergraduate](https://img.shields.io/badge/Undergraduate-Coursework-blue)
-![Projects](https://img.shields.io/badge/Projects-Research%20%26%20Engineering-green)
-![Languages](https://img.shields.io/badge/Languages-C%2B%2B%20%7C%20Python%20%7C%20Java%20%7C%20C-orange)
-![Status](https://img.shields.io/badge/Status-Archive-informational)
+![Coursework](https://img.shields.io/badge/Content-Coursework%20%26%20Labs-2f6f9f)
+![Languages](https://img.shields.io/badge/Languages-C%20%7C%20C%2B%2B%20%7C%20Java%20%7C%20SQL-f08a24)
+![Status](https://img.shields.io/badge/Status-Learning%20Archive-4c956c)
 
 </div>
 
 ---
 
-## 📖 About This Repository | 关于本仓库
+## About | 关于仓库
 
-This repository is a personal archive of my undergraduate studies.
+This repository archives solutions created for undergraduate course labs, assignments, and course projects. Each top-level directory corresponds to a distinct course topic or coursework project and includes English and Chinese documentation.
 
-It contains coursework, programming assignments, laboratory work, course projects, notes, exercises, and other solutions accumulated throughout my undergraduate education.
+本仓库归档本科阶段完成的课程实验、作业与课程项目解决方案。每个一级目录对应一门课程主题或课程项目，并提供中英文说明文档。
 
-这个仓库用于记录和整理我本科阶段的学习成果。
+These projects are learning records. They may reflect the tools, coding style, and engineering experience available at the time they were completed rather than production-ready standards.
 
-这里会逐步收录本科期间完成的：
-
-* 📚 Course materials and study notes
-* 💻 Programming assignments
-* 🧪 Laboratory exercises
-* 🏗️ Course projects
-* 🧠 Algorithm and data structure solutions
-* 🤖 AI / Machine Learning projects
-* 🖥️ Software engineering projects
-* 🔬 Research-oriented experiments
-* 📝 Exams, exercises, and problem-solving notes
-* 📂 Other technical work completed during my undergraduate studies
-
-The goal is not simply to store code, but to preserve the **learning process, engineering experience, and technical growth** throughout my undergraduate years.
-
-> **Every project is a snapshot of what I knew, what I was learning, and what I was trying to build at that point in time.**
+这些项目是学习过程的记录，体现完成当时所掌握的工具、编码风格与工程经验，并不都以生产环境标准为目标。
 
 ---
 
-# 🗂️ Repository Structure | 仓库结构
+## Coursework Map | 课程项目索引
 
-The repository is organized primarily by subject and academic area.
+| Directory | Course Topic | Main Technologies | Contents |
+| --- | --- | --- | --- |
+| `C-Program` | C Programming | C | Basic syntax, calculations, strings, arrays, sorting, and number exercises |
+| `CPP-Program` | C++ Programming | C++ | Functions, classes, inheritance, polymorphism, and calculation exercises |
+| `Data-struct-and-Algorithm` | Data Structures and Algorithms | C | AVL trees, Huffman coding, linked lists, expression evaluation, graphs, and sorting |
+| `Operating-System` | Operating Systems | C | Banker's algorithm, CPU scheduling, synchronization, and storage management |
+| `Java-Program` | Java Programming | Java | Console programs, objects, BMI, sorting, and Fibonacci exercises |
+| `JavaEE-Program` | Java EE | Java, Maven, JDBC | JavaBean, database access, and transaction practice modules |
+| `SQL-Develop` | Database Systems | SQL | DDL, integrity constraints, indexes, queries, nested queries, and triggers |
+| `Student-information-manager` | Course Project | C++, CMake | Console-based student accounts, course selection, and grade management |
+| `Gomoku` | Course Project | Java Swing | Desktop Gomoku with local accounts, score persistence, undo, and AI mode |
+| `Academic_Map` | Course Project | Spring Boot, Vue 3, MySQL | Full-stack academic information application |
+| `From_SXIT_to_World.github.io` | Course Project | Astro, Starlight, TypeScript | Student life and academic development guide site |
+
+---
+
+## Repository Structure | 仓库结构
 
 ```text
 .
-├── Computer-Science/
-│   ├── Data-Structures/
-│   ├── Algorithms/
-│   ├── Operating-Systems/
-│   ├── Computer-Architecture/
-│   ├── Computer-Networks/
-│   ├── Databases/
-│   └── Software-Engineering/
-│
-├── Mathematics/
-│   ├── Calculus/
-│   ├── Linear-Algebra/
-│   ├── Probability/
-│   └── Statistics/
-│
-├── Artificial-Intelligence/
-│   ├── Machine-Learning/
-│   ├── Deep-Learning/
-│   ├── Computer-Vision/
-│   └── NLP/
-│
-├── Robotics/
-│   ├── ROS/
-│   ├── Robot-Control/
-│   ├── Perception/
-│   └── Path-Planning/
-│
-├── Programming/
-│   ├── C/
-│   ├── Cpp/
-│   ├── Python/
-│   ├── Java/
-│   └── Other/
-│
-├── Projects/
-│   ├── Course-Projects/
-│   ├── Research-Projects/
-│   └── Personal-Projects/
-│
-├── Notes/
-│   ├── Lectures/
-│   ├── Reviews/
-│   └── References/
-│
-└── README.md
+├── .github/
+│   └── profile/                    # GitHub profile README
+├── .vscode/                        # VS Code workspace settings
+├── Academic_Map/
+│   ├── Academic_Map/               # Spring Boot backend
+│   ├── frontend/                   # Vue 3 frontend
+│   └── sql/                        # Database initialization script
+├── C-Program/                      # C programming exercises
+├── CPP-Program/                    # C++ programming exercises
+├── Data-struct-and-Algorithm/      # Data structures and algorithms
+├── From_SXIT_to_World.github.io/   # Astro documentation-site course project
+├── Gomoku/                         # Java Swing Gomoku course project
+├── Java-Program/                   # Java programming exercises
+├── JavaEE-Program/                 # Java EE practice modules
+├── Operating-System/               # Operating system exercises
+├── SQL-Develop/                    # Database and SQL exercises
+├── Student-information-manager/
+│   ├── include/                    # C++ header files
+│   ├── src/                        # C++ implementation files
+│   └── test/                       # CMake test files
+└── .clang-format                   # Shared C and C++ formatting rules
 ```
 
-The exact structure may evolve as the repository grows.
+Each project directory contains:
+
+- `README.md`: English project overview and build or run instructions
+- `README_CN.md`: Chinese project overview and build or run instructions
+- Source code, configurations, and supporting files for that course exercise or project
 
 ---
 
-# 📚 Courses | 课程
+## Technologies | 技术栈
 
-## 💻 Computer Science
+The coursework uses the following languages and tools:
 
-| Course                       | Topics                                   | Status |
-| ---------------------------- | ---------------------------------------- | ------ |
-| Data Structures & Algorithms | Algorithms, Data Structures, Complexity  | 🚧     |
-| Operating Systems            | Processes, Threads, Memory, File Systems | 🚧     |
-| Computer Architecture        | CPU, Memory, Cache, Parallelism          | 🚧     |
-| Computer Networks            | Networking, Protocols, TCP/IP            | 🚧     |
-| Database Systems             | SQL, Transactions, Database Design       | 🚧     |
-| Software Engineering         | Design, Testing, Development Practices   | 🚧     |
-
-## 🧮 Mathematics
-
-| Course         | Topics                                       | Status |
-| -------------- | -------------------------------------------- | ------ |
-| Calculus       | Differential & Integral Calculus             | 🚧     |
-| Linear Algebra | Matrices, Vector Spaces, Eigenvalues         | 🚧     |
-| Probability    | Random Variables, Distributions, Expectation | 🚧     |
-| Statistics     | Statistical Inference & Analysis             | 🚧     |
-
-## 🤖 Artificial Intelligence
-
-| Course / Area               | Topics                             | Status |
-| --------------------------- | ---------------------------------- | ------ |
-| Machine Learning            | Supervised & Unsupervised Learning | 🚧     |
-| Deep Learning               | Neural Networks, Optimization      | 🚧     |
-| Computer Vision             | Image Processing, Object Detection | 🚧     |
-| Natural Language Processing | Text Processing & Language Models  | 🚧     |
+- **Languages:** C, C++, Java, SQL, JavaScript, TypeScript
+- **Build tools:** GCC, G++, CMake, Maven, npm, Vite
+- **Frameworks:** Spring Boot, Vue 3, Java Swing, Astro, Starlight
+- **Data:** MySQL, H2, local text or database files
 
 ---
 
-# 🧪 Projects | 项目
+## Running Projects | 运行项目
 
-Some coursework evolved beyond simple assignments into larger engineering or research projects.
+Most C and C++ exercise files are standalone programs and should be compiled individually. For example:
 
-### 🤖 Robotics
-
-Projects involving:
-
-* Robot perception
-* Motion control
-* Path planning
-* ROS
-* Sensor integration
-* Autonomous systems
-
-### 🧠 Artificial Intelligence
-
-Projects involving:
-
-* Machine Learning
-* Deep Learning
-* Computer Vision
-* Object Detection
-* Model optimization
-* AI-assisted applications
-
-### 🔊 Acoustic / Sensing Systems
-
-Exploration of lightweight sensing systems using acoustic signals, including:
-
-* Acoustic sensing
-* Direction estimation
-* Gaze-related detection
-* Signal processing
-* Lightweight machine-learning models
-
-### 🛠️ Software Engineering
-
-Projects involving:
-
-* Backend development
-* Full-stack applications
-* Cross-platform software
-* Developer tools
-* Engineering infrastructure
-* APIs and distributed systems
-
----
-
-# 📝 What You Can Find Here | 这里有什么？
-
-Depending on the course or project, a directory may contain:
-
-```text
-course/
-├── README.md
-├── assignments/
-├── labs/
-├── projects/
-├── notes/
-├── exams/
-├── src/
-├── tests/
-└── resources/
+```powershell
+gcc -std=c17 -Wall -Wextra -o exercise source.c
+.\exercise.exe
 ```
 
-Each project may include its own README explaining:
+```powershell
+g++ -std=c++20 -Wall -Wextra -o exercise source.cpp
+.\exercise.exe
+```
 
-* 📌 Project description
-* 🎯 Learning objectives
-* 🧠 Key concepts
-* 🛠️ Technologies used
-* ⚙️ Implementation
-* ▶️ How to run
-* 📊 Results
-* 💡 Lessons learned
-* 🔗 References
+Projects with a build system provide project-specific instructions in their own README files. Common commands include:
 
----
+```powershell
+# CMake course project
+cmake -S . -B build
+cmake --build build
 
-# 💻 Technologies | 技术栈
+# Maven module
+mvn clean package
 
-Throughout my undergraduate studies, I have worked with a variety of technologies.
+# Java program
+javac -d out *.java
 
-### Programming Languages
-
-<div align="center">
-
-![Languages](https://skillicons.dev/icons?i=c,cpp,python,java,javascript,typescript,cs,php,kotlin,matlab)
-
-</div>
-
-### Frameworks & Tools
-
-<div align="center">
-
-![Tools](https://skillicons.dev/icons?i=git,github,linux,vscode,cmake,qt,opencv,pytorch,tensorflow,ros,arduino,androidstudio,spring,vue,mysql)
-
-</div>
+# Frontend or documentation site
+npm install
+npm run dev
+```
 
 ---
 
-# 🧠 Learning Philosophy | 学习理念
+## Academic Integrity | 学术诚信
 
-This repository is not intended to present every piece of code as a polished production system.
+This repository is provided for learning, reference, and archival purposes. Do not submit its code as your own work for an active assignment, laboratory, or course project.
 
-Some projects represent early attempts, experiments, mistakes, or incomplete ideas.
+本仓库仅用于学习、参考与归档。请勿将其中代码作为正在进行的课程作业、实验或课程项目的个人提交内容。
 
-And that is intentional.
+Use the materials to understand ideas, reproduce results independently, and improve your own implementation.
 
-本科阶段的代码并不一定都是成熟的工程作品。
-
-有些代码可能并不优雅，有些项目可能存在不足，有些实现甚至只是第一次尝试。
-
-但这些内容记录了真实的学习过程。
-
-> **Good engineering is built through iteration.**
-
-> **好的工程能力，是在不断尝试、失败、修改与重新实现中建立起来的。**
-
-Therefore, this repository values:
-
-* 📈 Progress over perfection
-* 🧠 Understanding over memorization
-* 🔧 Engineering over theory alone
-* 🔬 Experimentation over assumptions
-* 🔁 Iteration over one-time success
+请以理解思路、独立复现结果和改进个人实现为目的使用这些资料。
 
 ---
 
-# 🎓 Academic Archive | 本科学习档案
+## License | 许可
 
-This repository serves as a long-term archive of my undergraduate education.
+Unless a subproject states otherwise, the included work is intended for educational and reference use. Consult the `LICENSE` file in an individual project before reuse.
 
-Rather than keeping coursework scattered across different computers, cloud drives, and folders, I want to consolidate the work into one structured repository.
-
-It allows me to look back and answer questions such as:
-
-> What did I learn?
-
-> What did I build?
-
-> How did my programming skills evolve?
-
-> How did my understanding of computer science change?
-
-> Which projects eventually influenced my research interests?
-
-In this sense, this repository is both a **technical archive and a record of personal growth**.
-
----
-
-# ⚠️ Academic Integrity & Usage | 学术诚信与使用说明
-
-This repository is published primarily for **learning, reference, and archival purposes**.
-
-Some assignments or course projects may be subject to academic-integrity policies, copyright restrictions, or course-specific rules.
-
-Please **do not submit code from this repository as your own work** for an active course or assignment.
-
-If you are currently taking a course that uses similar assignments, use these materials only in accordance with your instructor's and institution's policies.
-
-> **Learn from the solutions. Don't submit them as your own.**
-
-对于仍在进行中的课程，请务必遵守学校、教授以及课程本身的 Academic Integrity Policy。
-
-本仓库的目的应该是：
-
-**学习 → 理解 → 实践 → 改进**
-
-而不是：
-
-**复制 → 提交。**
-
----
-
-# 🌱 Future Plans | 后续计划
-
-This repository will continue to grow as I progress through my academic and engineering journey.
-
-Future additions may include:
-
-* 📚 More undergraduate courses
-* 🤖 Robotics projects
-* 🧠 AI / ML experiments
-* 🔬 Research projects
-* 💻 Software engineering projects
-* 📝 Technical notes
-* 📊 Experiment results
-* 🏆 Competitions and hackathons
-* 🌎 Open-source contributions
-
-Eventually, I hope this repository can become a comprehensive record of my transition from **learning computer science to building real systems**.
-
----
-
-# 🐾 Beyond Code | 不只是代码
-
-Technology is more than code.
-
-Behind every project are curiosity, mistakes, late nights, debugging sessions, and the excitement of finally making something work.
-
-As part of the **HongMing Intelligent Technology Team / 弘茗智能科技团队**, I hope to keep exploring the intersection of:
-
-**Robotics × AI × Software Engineering × Creativity**
-
-> **From learning to building.
-> From experiments to systems.
-> From curiosity to intelligence.**
-
-**从学习到创造，从实验到系统，从热爱到智能。**
-
----
-
-<div align="center">
-
-### 🎓 Undergraduate Archive
-
-**Learn · Build · Experiment · Improve**
-
-**学习 · 实践 · 探索 · 成长**
-
-<br>
-
-Made with curiosity, code, and countless debugging sessions. 🐾
-
-</div>
+除非子项目另有说明，仓库内容用于教育与参考。复用前请查看各项目中的 `LICENSE` 文件。
